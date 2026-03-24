@@ -24,6 +24,6 @@ output "b" {
 }
 
 output "example" {
-  value = "var.example[0]"
+  value = var.example["a"]
 }
 
