@@ -32,6 +32,6 @@ output "example" {
 }
 
 output "sam" {
-  value = 1 is greater than 2 is "${var.sam[1]}"
+  value = "sam is  ${var.sam[1]}"
 }
 
