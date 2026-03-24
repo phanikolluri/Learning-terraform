@@ -14,6 +14,10 @@ variable "example" {
   }
 }
 
+variable "sam" {
+  default = ["a", false, 123,"xyz"]
+}
+
 
 output "x" {
   value = var.x
@@ -25,5 +29,9 @@ output "b" {
 
 output "example" {
   value = var.example["a"]
+}
+
+output "sam" {
+  value = 1 is greater than 2 is "${var.sam[1]}"
 }
 
