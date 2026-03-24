@@ -7,9 +7,11 @@ variable "b" {
 }
 
 variable "example" {
-  a = 123
-  b = "check"
-  c = true
+  default = {
+    a = 123
+    b = "check"
+    c = true
+  }
 }
 
 
