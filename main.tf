@@ -22,3 +22,8 @@ output "x" {
 output "b" {
   value = "b value is ${var.b}"
 }
+
+output "example" {
+  value = "var.example[0]"
+}
+
