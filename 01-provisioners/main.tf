@@ -13,6 +13,7 @@ resource "aws_instance" "instance" {
     inline = [
       "mkdir  devops-terrafrom",
       "touch file.txt",
+      "echo using provisoner we are creating instance >> file.txt",
       "echo  here i am working on terraform provisioner concept >> /tmp/echo.txt"
     ]
   }
