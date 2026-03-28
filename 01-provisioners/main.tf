@@ -11,7 +11,9 @@ resource "aws_instance" "instance" {
       password = "DevOps321"
     }
     inline = [
-      "echo today we are learning provisoner concept"
+      "sudo mkdir  devops-terrafrom",
+      "touch file.txt",
+      "echo  here i am working on terraform provisioner concept >> /tmp/echo.txt"
     ]
   }
 }
